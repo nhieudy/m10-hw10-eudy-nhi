@@ -32,10 +32,12 @@ body {
   text-align: center;
 }
 
+.header__link,
 .article__link {
   text-decoration: none;
 }
 
+.header__link:hover,
 .article__link:hover {
   text-decoration: underline;
 }
@@ -84,8 +86,6 @@ body {
   background-image: url(https://picsum.photos/1920/1000);
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
